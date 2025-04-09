@@ -16,8 +16,8 @@ class Calculator:
     def __init__(self):
         self.window = tk.Tk()
         self.window.geometry("375x667")
-        self.window.resizable(0, 0)
-        self.window.title("Calculator")
+        self.window.resizable(6, 3)
+        self.window.title("Calculat")
 
         self.total_expression = ""
         self.current_expression = ""
